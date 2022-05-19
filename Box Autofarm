@@ -1,0 +1,11 @@
+pcall(function()
+                    LocalPlayer.Character.HumanoidRootPart.CFrame = Workspace.MAP.Map.ArenaBOX.PunchingBagInGame["pretty ransom"].CFrame * CFrame.new(0, -1, 3)
+                    if LocalPlayer.Backpack:FindFirstChild("Combat") then
+                        LocalPlayer.Backpack.Combat.Parent = LocalPlayer.Character
+                    end
+                end)
+                mouse1click()
+            end
+        end
+    end
+end)
